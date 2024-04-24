@@ -76,19 +76,16 @@ header{
 .hero-section{
     display: flex;
     min-height: 700px;
-    padding: 0 250px;
+   justify-content: center;
     align-items: center;
 }
 
 .hero-details{
-    width: 50%;
-    padding: 0 0 0 100px;
+    width: 40%;
 
 }
 
-.demo-image{
-    height: 500px;
-}
+
 .paytm-app-logo{
     height: 5rem;
     margin-bottom: 50px;
@@ -119,3 +116,52 @@ line-height: 1.2;
     border: 1px solid black;
     color: black;
 }
+
+
+.hero-app-demo{
+    width: 30%;
+
+}
+.demo-image{
+    width: 100%;
+}
+
+.recharge-section{
+    min-height:250px ;
+    background-color:#00baf2 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recharge-container{
+  width: 70vw;
+  padding: 50px 0;
+    color: white;
+}
+.recharge-plans{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.recharge-container h2{
+font-size: 30px;
+margin-bottom: 15px;
+}
+.plan{
+    width: 150px;
+    height: 180px;
+   cursor: pointer;
+    padding: 10px;
+    transition: all 100ms ease;
+}
+.plan:hover{
+    background-color: #0297c493;
+    border-radius: 5px;
+}
+.plan img{
+    width: 65px;
+}
+
+
+
