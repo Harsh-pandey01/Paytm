@@ -20,6 +20,7 @@ body {
     width: 100%;
     background-color: var(--main-bg-color);
     font-family: var(--main-font-family);
+    position: relative;
 }
 
 
@@ -31,6 +32,10 @@ header{
     gap: 2vw;
     padding: 0px 15px;
     width: 100%;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    box-shadow: 0 0 5px 2px rgb(236, 236, 236);
 }
 
 .nav{
@@ -146,7 +151,7 @@ line-height: 1.2;
 }
 .recharge-container h2{
 font-size: 30px;
-margin-bottom: 15px;
+margin-bottom: 25px;
 }
 .plan{
     width: 150px;
@@ -163,5 +168,29 @@ margin-bottom: 15px;
     width: 65px;
 }
 
+.booking-section{
+    min-height:250px ;
+    background-color:#0f4a8a ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-
+.booking-container{
+    width: 70vw;
+    padding: 50px 0;
+    color: white;
+}
+.booking-plans{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.booking-plans >.plan:hover{
+    background-color: #0535696b;
+    border-radius: 5px;
+}
+.booking-container h2{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
